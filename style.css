@@ -1,3 +1,35 @@
-html {
+h1,
+#recipes,
+a {
     text-align: center;
+    color: white;
+}
+
+html {
+    background-color: rgba(38, 38, 126, 0.904);
+}
+
+#recipes {
+    font-size: 50px;
+}
+
+a:hover {
+    color: lightcoral;
+}
+
+h1 {
+    font-size: 90px;
+    font-weight: bold;
+}
+
+#background {
+    z-index: 1;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    height: auto;
 }
